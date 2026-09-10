@@ -1,0 +1,33 @@
+# Core application
+gradio
+python-dotenv
+requests
+feedparser
+beautifulsoup4
+
+# OpenAI
+openai
+
+# Groq
+groq
+
+# Modal
+modal
+
+# Data / ML
+datasets
+transformers
+peft
+accelerate
+torch
+unsloth
+
+# Training / quantization
+bitsandbytes
+trl
+
+# Hugging Face
+huggingface_hub
+
+# Notifications
+pypushover
