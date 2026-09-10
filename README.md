@@ -580,6 +580,4 @@ The model's price accuracy is treated as an experimental result, while the **eng
 
 ## License
 
-This project is intended as a personal portfolio project.
-
-Review the licenses and terms of service of all third-party models, datasets, APIs, websites, and services before using the system commercially.
+See LICENSE.
