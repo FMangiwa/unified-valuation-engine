@@ -81,6 +81,16 @@ The system deliberately keeps the valuation models independent. The QLoRA model 
 
 ---
 
+## Demo
+
+Watch the application demo:
+
+`umive_demo.mp4`
+
+The demo shows the end-to-end workflow from deal discovery and product extraction through AI valuation, ensemble scoring, and deal detection.
+
+---
+
 ## Key Engineering Features
 
 ### 1. Automated Deal Discovery
@@ -389,8 +399,8 @@ The training pipeline uses a Llama 3.2 3B base model with QLoRA adapters and exp
 ## 1. Clone
 
 ```bash
-git clone <your-repository-url>
-cd price-prediction
+git clone https://github.com/FMangiwa/unified-valuation-engine.git
+cd unified-valuation-engine
 ```
 
 ## 2. Create a virtual environment
@@ -417,16 +427,10 @@ pip install -r requirements.txt
 
 ## 4. Configure environment variables
 
-Create a `.env` file or configure environment variables through your deployment platform.
+Copy the example environment file:
 
-Typical credentials include:
-
-```text
-OPENAI_API_KEY=...
-GROQ_API_KEY=...
-HF_TOKEN=...
-PUSHOVER_USER_KEY=...
-PUSHOVER_APP_TOKEN=...
+```bash
+cp .env.example .env
 ```
 
 Modal authentication is configured separately through the Modal CLI.
