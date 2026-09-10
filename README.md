@@ -29,7 +29,7 @@ The system deliberately keeps the valuation models independent. The QLoRA model 
 
 ```text
                          ┌─────────────────────┐
-                         │     DealNews RSS     │
+                         │     DealNews RSS    │
                          └──────────┬──────────┘
                                     │
                                     ▼
@@ -39,10 +39,10 @@ The system deliberately keeps the valuation models independent. The QLoRA model 
                          └──────────┬──────────┘
                                     │
                                     ▼
-                         ┌─────────────────────┐
-                         │     GPT-5 Mini      │
-                         │ Structured Extraction│
-                         └──────────┬──────────┘
+                        ┌───────────────────────┐
+                        │     GPT-5 Mini        │
+                        │ Structured Extraction │
+                        └───────────┬───────────┘
                                     │
                                     ▼
                          ┌─────────────────────┐
@@ -57,7 +57,7 @@ The system deliberately keeps the valuation models independent. The QLoRA model 
            │ Modal      │   │ Groq         │  │ GPT-5 Mini │
            │ QLoRA      │   │ GPT OSS 120B │  │ Valuation  │
            │ Rev2       │   │ Valuation    │  │            │
-           └─────┬──────┘   └──────┬───────┘  └─────┬──────┘
+           └─────┬──────┘   └──────┬───────┘  └──────┬─────┘
                  │                 │                 │
                  └─────────────────┼─────────────────┘
                                    ▼
@@ -68,7 +68,7 @@ The system deliberately keeps the valuation models independent. The QLoRA model 
                        ┌────────────┴────────────┐
                        ▼                         ▼
               ┌────────────────┐       ┌────────────────┐
-              │ Discount / Deal │       │ Model          │
+              │ Discount / Deal│       │ Model          │
               │ Detection      │       │ Confidence     │
               └───────┬────────┘       └────────────────┘
                       │
